@@ -71,15 +71,5 @@ router.get('/',(req,res,next)=>{
       demos:docs
     })
   })
-  // let docs=[
-  //   {
-  //     id:'1314',
-  //     uid:'zsq',
-  //     title:'白百合了吗？',
-  //     content:'不好说',
-  //     createTime:'2017-4-12'
-  //   }
-  // ];
-
 })
 module.exports=router;
