@@ -4,4 +4,6 @@
 ## 项目运行
 * 首先你要确定你的电脑上已经安装了Node.js 和我们此次用到的数据库MongoDB，如果还没有安装你可以到[Node.js中文网](http://nodejs.cn/download/)和[MongoDB download center](https://www.mongodb.com/download-center?jmp=nav#community)下载对应的安装包一步一步next进行安装 <br>
 * npm install  安装项目依赖
-* 将你的本地数据库Mongodb跑起来~
+* 将你的本地数据库Mongodb跑起来~  
+```mongod -dbpath  D:/mongodb/data/db ```
+* nodemon app.js 此时项目就在8080端口启动起来了
