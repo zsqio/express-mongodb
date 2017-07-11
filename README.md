@@ -6,4 +6,4 @@
 * npm install  安装项目依赖
 * 将你的本地数据库Mongodb跑起来~  
 ```mongod -dbpath  D:/mongodb/data/db ```
-* nodemon app.js 此时项目就在8080端口启动起来了
+* nodemon app.js （ps:如果你使用的是supervisor 则使用supervisor app.js启动项目）此时项目就在8080端口启动起来了
